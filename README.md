@@ -6,9 +6,9 @@ This repository contains the implementation of a Thai Question-Answering (QA) sy
 
 ### Key Features
 
-- **Fast Similarity Search:** Utilizes Faiss for efficient similarity search among QA pairs.
-- **WangchanBERTa Integration:** Incorporates WangchanBERTa, a pretraining multilingual transformer-based model.
-- **Semantic Search:** Implements semantic search to enhance the accuracy of QA pair matching.
+- **Fast Similarity Search:** Utilizes [Faiss](https://github.com/facebookresearch/faiss) for efficient similarity search among QA pairs.
+- **WangchanBERTa Integration:** Incorporates [WangchanBERTa](https://huggingface.co/airesearch/wangchanberta-base-att-spm-uncased), a pretraining multilingual transformer-based model.
+- **Semantic Search:** Implements [semantic search](https://doi.org/10.48550/arXiv.1908.10084) to enhance the accuracy of QA pair matching.
 
 ## Getting Started
 
