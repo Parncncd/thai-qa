@@ -97,9 +97,9 @@ class Chatbot:
         print('Load (questions) embeddings done')
         return stored_embeddings
     
-    def store_embeddings(self,df, embeddings):
+    def store_embeddings(self, embeddings):
         with open('data/embeddings.pkl', "wb") as fOut:
-            pickle.dump({'sentences': df['Question'], 'embeddings': embeddings}, fOut, protocol=pickle.HIGHEST_PROTOCOL)
+            pickle.dump({'sentences': self.df['Question'], 'embeddings': embeddings}, fOut, protocol=pickle.HIGHEST_PROTOCOL)
         print('Store embeddings done')
 
     # Generate Output by LLM
@@ -166,6 +166,9 @@ class Chatbot:
         """
         
         # load model 
+        if model_name not in MODEL_DICT.keys():
+            self.model = AutoModelForQuestionAnswering.from_pretrained(model_name)
+            self.model_name = model_name
         if answer_with_model & (model_name != self.model_name):
             self.load_model(model_name)
 
