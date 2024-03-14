@@ -12,6 +12,12 @@ This repository contains the implementation of a Thai Question-Answering (QA) sy
 
 ## Getting Started
 
+### Web Demo
+
+![alt text](data/demo.png)
+
+<p style="text-align: center;"><a>https://huggingface.co/spaces/powerpuf-bot/wangchanberta-th-qa</a></p>
+
 ### Prerequisites
 
 - Python 3.10
@@ -21,3 +27,4 @@ This repository contains the implementation of a Thai Question-Answering (QA) sy
 
 ```bash
 pip install -r requirements.txt
+```
