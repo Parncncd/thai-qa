@@ -16,7 +16,7 @@ This repository contains the implementation of a Thai Question-Answering (QA) sy
 
 ![alt text](data/demo.png)
 
-<p style="text-align: center;"><a>https://huggingface.co/spaces/powerpuf-bot/wangchanberta-th-qa</a></p>
+<p style="text-align: center;"><a href="https://huggingface.co/spaces/powerpuf-bot/wangchanberta-th-qa">https://huggingface.co/spaces/powerpuf-bot/wangchanberta-th-qa</a></p>
 
 ### Prerequisites
 
