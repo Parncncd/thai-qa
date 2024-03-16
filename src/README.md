@@ -1,6 +1,6 @@
 # src
 
-ใน Directory นี้จะมีทั้งหมด 5 ไฟล์ด้วยกัน
+ใน Directory นี้จะมีทั้งหมด 6 ไฟล์ด้วยกัน
 
 1. `main.py` - เป็นไฟล์สำหรับใช้ [Demo](https://huggingface.co/spaces/powerpuf-bot/wangchanberta-th-qa) การทำงานของระบบ
 
@@ -11,3 +11,5 @@
 4. `param-tune.py` - เป็นไฟล์สำหรับใช้ทำ Hyperparameter-tuning LLM
 
 5. `eval.py` - เป็นไฟล์สำหรับใช้ Evaluation ระบบ
+
+6. `chat_openai.ipynb` - เป็น Chatbot ที่ใช้ Faiss ในการ Retrieve ข้อมูลประกอบกับ ChatGPT ในการ Generate คำตอบ
